@@ -72,7 +72,7 @@ Não precisa instalar nada! 🎉
 
 ```bash
 # 1. Clone o repositório
-git clone https://github.com/PaulinDevendo/Workingtech-2026.git
+git clone https://github.com/WalterhfViana/Workintech-2026.git
 
 # 2. Entre na pasta
 cd Workingtech-2026
