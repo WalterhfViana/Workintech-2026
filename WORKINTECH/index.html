@@ -9,34 +9,101 @@
     <header>
         <a href="#"id="logo">Walter <span>Viana</span></a>
         <nav> 
-            <a href="https://dontpad.com/WebFundamentos">Dontpad</a>
+            <a href="https://dontpad.com/WebFundamentos">DontPad</a>
             <a href="">opçao 2</a>
             <a href="">opçao 3</a>
             <a href="">opçao 4</a>
         </nav>
-        <button id="MdEscuro"><img src="./sol.png" alt="Mudar Tema"><span>Modo Escuro</span></button>
+        <button id="botao-tema"><img src="./img/sol.png" alt=""><span id="texto-tema">Tema claro</span></button>
     </header>
     <main>
         <section id="hero">
-            <img src="./eu.jpeg" alt="Walter">
-            <h1>Walter Viana</h1>
+            <img src="./img/eu.jpeg" alt="Walter">
+            <h1>Walter <span>Viana</span></h1>
             <h2>Estudante de Eng. Software</h2>
-            <p>Copiei o codigo do professor e botei meu nome</p>
-            <button href="https://github.com/WalterhfViana/Workintech-2026">GitHub</button>
-        </section>
+            <p>Front End feito na mao</p>
+            <a href="https://github.com/WalterhfViana/Workintech-2026/tree/main/WORKINTECH">
+                <button href="">GitHub</button>
+            </a>
+            </section>
 
-        <section class= "sections" id ="sobre">
+        <section class= "sections" id ="sobremim">
             <h3>Sobre Mim</h3>
             <p>
-                Estudo engenharia de software, to mudando o codigo do professor aqui
-                sem ter certeza de como ele fez isso, vou salvar esse codigo e quando
-                eu entender como ele fez eu mudo.
-                head = informaçoes metadados /
-                header = cabeçalho / 
-                body = resto do codigo, escrever tudo la /
+            Contrary to popular belief, Lorem Ipsum is not simply random text.
+            It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+            Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
+            consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature,
+            discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum"
+            (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics,
+            very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..",
+             comes from a line in section 1.10.32.
             </p>
+            <h3>Habilidades</h3>
+            <ul id="sobre">
+                <li><img src="./img/js.png" alt="javascript"><h4>JavaScript</h4></li>
+                <li><img src="./img/c.png" alt="C"><h4>C</h4></li>
+                <li><img src="./img/github.png" alt="github"><h4>GitHub</h4></li>
+            </ul>
         </section>
+
+        <section class="sections" id="projetos">
+            <h3>Projetos</h3>
+            <div class="carrossel" id="carrossel">
+                <div class="card">
+                    <img src="./img/sobre.jpg" alt="Notebook e caderno com rascunhos">
+                    <h5>Projeto Meu Currículo</h5>
+                    <p>
+                        Projeto desenvolvido durante a Workingtech da unicesumar
+                        trabalhando os web fundamentos
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="./img/projeto-tarefas.jpg" alt="Notebook ao lado de uma xícara de café">
+                    <h5>Lista de Tarefas</h5>
+                    <p>Aplicativo para organizar o dia.</p>
+                </div>
+                <div class="card">
+                    <img src="./img/projeto-cafeteria.jpg" alt="Barista preparando café">
+                    <h5>Site da Cafeteria</h5>
+                    <p>Página de uma cafeteria com cardápio.</p>
+                </div>
+                <div class="card">
+                    <img src="./img/projeto-clima.jpg" alt="Barraca amarela na neve">
+                    <h5>Clima Agora</h5>
+                    <p>Mostra a previsão do tempo de qualquer cidade.</p>
+                </div>
+                <div class="card">
+                    <img src="./img/sobre.jpg" alt="Notebook e caderno com rascunhos">
+                    <h5>Projeto Meu Currículo</h5>
+                    <p>
+                        Projeto desenvolvido durante a Workingtech da unicesumar
+                        trabalhando os web fundamentos
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="./img/projeto-tarefas.jpg" alt="Notebook ao lado de uma xícara de café">
+                    <h5>Lista de Tarefas</h5>
+                    <p>Aplicativo para organizar o dia.</p>
+                </div>
+                <div class="card">
+                    <img src="./img/projeto-cafeteria.jpg" alt="Barista preparando café">
+                    <h5>Site da Cafeteria</h5>
+                    <p>Página de uma cafeteria com cardápio.</p>
+                </div>
+                <div class="card">
+                    <img src="./img/projeto-clima.jpg" alt="Barraca amarela na neve">
+                    <h5>Clima Agora</h5>
+                    <p>Mostra a previsão do tempo de qualquer cidade.</p>
+                </div>
+            </div>
+            <div class="setas">
+                <button id="voltar"><</button>
+                <button id="avancar">></button>
+            </div>
+            <section>
         
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
