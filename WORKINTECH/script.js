@@ -1,4 +1,5 @@
 
+
 // ===== 1. TEMA CLARO / ESCURO =====
 
 const botaoTema = document.getElementById("botao-tema");
